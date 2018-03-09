@@ -39,14 +39,15 @@
   "author": "Lex Martinez <me@lexmartinez.com>",
   "license": "MIT",
   "dependencies": {
+    "apicache": "^1.2.0",
     "body-parser": "^1.13.3",
-    "compression": "^1.5.2",
+    "compression": "^1.7.2",
     "cors": "^2.7.1",
-    "express": "^4.13.3",
-    "morgan": "^1.9.0",
     "dotenv": "^4.0.0",
+    "express": "^4.13.3",
     "mongodb": "^2.2.33",
     "monk": "^6.0.5",
+    "morgan": "^1.9.0",
     "serve-favicon": "^2.4.5"
   },
   "devDependencies": {
