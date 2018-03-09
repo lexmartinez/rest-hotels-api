@@ -51,7 +51,7 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
  Environment variables must be configured into `.env` file located at project root
 
 ```
-DB_URL = mongodb://localhost:27017/database
+DB_URL = localhost:27017/database
 DB_USER = username
 DB_PASSWORD = password
 ```````
