@@ -3,7 +3,7 @@
 
 :hotel: Hotels REST API: A simple node/express API exercise.
 
-> Created as part of technical test for **mobile dev** role
+> Created as part of technical test for **mobile dev** role at Hays Recruiting
 
 ### Quick start
 
@@ -28,6 +28,7 @@ go to [http://localhost:8080](http://localhost:8080) in your browser.
 * [Dependencies](#dependencies)
 * [Developing](#developing)
 * [Environment](#environment)
+* [Testing](#testing)
 * [Production](#production)
 * [Service Endpoints](#service-endpoints)
 * [Deployment](#deployment)
@@ -55,6 +56,12 @@ DB_USER = username
 DB_PASSWORD = password
 ```````
 
+## Testing
+
+In order to check the coding standard, this project has `eslint` integration to run it use
+
+* `npm run test`
+
 ## Production
 
 To build your application, run:
@@ -66,7 +73,7 @@ You can now go to `/dist` and deploy that to your server!
 > You also can run your compiled project locally  using the command `npm run serve`
 
 ## Service Endpoints
-Every RESTful Webservice includes this endpoints:
+The REST API includes the following endpoints:
 
 + getHotels
 ```ruby

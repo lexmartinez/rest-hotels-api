@@ -1,0 +1,61 @@
+{
+  "name": "rest-hotels-api",
+  "version": "0.1.0",
+  "description": "Hotels REST API - A simple node/express API exercise",
+  "main": "dist",
+  "scripts": {
+    "start": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "serve": "node dist",
+    "test": "eslint src"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmartinez/rest-hotels-api.git"
+  },
+  "keywords": [
+    "express",
+    "es6",
+    "nodejs",
+    "mongodb",
+    "rest-api",
+    "hotels",
+    "technical-test"
+  ],
+  "author": "Lex Martinez <me@lexmartinez.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "morgan": "^1.9.0",
+    "resource-router-middleware": "^0.6.0",
+    "dotenv": "^4.0.0",
+    "mongodb": "^2.2.33",
+    "monk": "^6.0.5",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.1.1",
+    "nodemon": "^1.9.2"
+  }
+}
