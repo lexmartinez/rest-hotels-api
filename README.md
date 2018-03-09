@@ -1,9 +1,9 @@
 # rest-hotels-api [![Build Status](https://travis-ci.org/lexmartinez/rest-hotels-api.svg?branch=master)](https://travis-ci.org/lexmartinez/rest-hotels-api)
 
 
-:hotel: Hotels REST API: A simple node/express API exercise.
+:hotel: REST Hotels API: A simple node/express API exercise.
 
-> Created as part of technical test for **mobile dev** role at Hays Recruiting
+> Created as part of technical test for **mobile dev** role at Hays Recruiting - Almundo.com
 
 ### Quick start
 
@@ -73,7 +73,7 @@ You can now go to `/dist` and deploy that to your server!
 > You also can run your compiled project locally  using the command `npm run serve`
 
 ## Service Endpoints
-The REST API includes the following endpoints:
+This REST API includes the following endpoints:
 
 + getHotels
 ```ruby
