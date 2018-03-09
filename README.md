@@ -87,7 +87,7 @@ This REST API includes the following endpoints:
 
 + getHotelsByCity
 ```ruby
-    GET: /v1/hotels?city={cityId}
+    GET: /v1/hotels?city={city}
 ```
 
 + getHotelById
