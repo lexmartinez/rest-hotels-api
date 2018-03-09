@@ -135,3 +135,8 @@ A demo for this app is running on Heroku at
 ###### Dummy Generated Data powered by [JSON Generator](https://www.json-generator.com/)
 
 > Demo data is a lot of dummy information, thus the different addresses, locations, phones and so on not match any real hotel
+
+
+## License
+
+This project is licensed under MIT License - see the [LICENSE.md](https://github.com/lexmartinez/rest-hotels-api/blob/master/LICENSE.md) file for details
