@@ -95,6 +95,37 @@ This REST API includes the following endpoints:
     GET: /v1/hotels/{id}
 ```
 
+## Hotel Schema
+The model for our hotel objects is defined as follows:
+
+```json
+{
+    "name" : "Dummie Hotel",
+    "stars" : 3,
+    "images" : ["http://dummie-hotel.com/image1.jpg","http://dummie-hotel.com/image2.jpg"],
+    "price" : 1596,
+    "city": "Paris",
+    "address": "Champ de Mars, 5 Avenue Anatole France, 75007",
+    "latitude": 48.858093,
+    "longitude": 2.294694,
+    "country": "France",
+    "description": "Sed elementum tempus tellus, a efficitur massa molestie in. Vivamus tempus libero metus, sit amet scelerisque leo mattis eu. Vestibulum et nisl maximus, consequat felis eu, varius erat. Pellentesque fermentum tincidunt dui non porttitor.",
+    "website": "http://dummie-hotel.com",
+    "phone": "+33 (2) 753 343 43443",
+    "email": "contact@dummie-hotel.com",
+    "amenities": {
+        "wifi": true,
+        "pool": false,
+        "spa": false,
+        "parking": true,
+        "ac": false,
+        "restaturant": true,
+        "bar": true,
+        "gym": false
+    }    
+}
+```
+
 ## Deployment
 A demo for this app is running on Heroku at 
 
