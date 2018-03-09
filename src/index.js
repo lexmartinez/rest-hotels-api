@@ -1,3 +1,5 @@
+'use strict';
+
 import dotenv from 'dotenv';
 import express from 'express';
 import bodyParser from 'body-parser';
@@ -20,5 +22,5 @@ app.use('/v1', routes);
 app.use(favicon('public/favicon.ico'));
 
 app.listen(port, () => {
-  console.log(`REST Hotels API running on http://localhost:${port}`);
+  console.log(`REST Hotels API running on port: ${port}`);
 });
