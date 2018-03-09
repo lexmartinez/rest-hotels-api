@@ -75,9 +75,19 @@ You can now go to `/dist` and deploy that to your server!
 ## Service Endpoints
 This REST API includes the following endpoints:
 
++ getCities
+```ruby
+    GET: /v1/cities
+```
+
 + getHotels
 ```ruby
     GET: /v1/hotels
+```
+
++ getHotelsByCity
+```ruby
+    GET: /v1/hotels?city={cityId}
 ```
 
 + getHotelById

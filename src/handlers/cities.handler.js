@@ -2,10 +2,12 @@
 
 import handler from './base.handler';
 
+const collection = 'cities';
+
 module.exports =  {
 
   getCities: (res) => {
-    handler.getAll('cities', {}, res);
+    handler.getAll(collection, {}, res);
   }
 
 };
