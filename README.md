@@ -132,3 +132,6 @@ A demo for this app is running on Heroku at
 > [https://rest-hotels-api.herokuapp.com/](https://rest-hotels-api.herokuapp.com/)
 
 ###### Deploy powered by [TravisCI](https://travis-ci.org/) & [Heroku](https://heroku.com)
+###### Dummy Generated Data powered by [JSON Generator](https://www.json-generator.com/)
+
+> Demo data is a lot of dummy information, thus the different addresses, locations, phones and so on not match any real hotel

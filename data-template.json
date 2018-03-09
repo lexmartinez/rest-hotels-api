@@ -1,0 +1,29 @@
+[
+  '{{repeat(4, 6)}}',
+  {
+    name: '{{company()}} {{company()}} {{random("Hotel", "Paradise", "Resort")}}',
+    price: '{{floating(700, 4000, 2)}}',
+    starts: '{{integer(1, 5)}}',
+    images: [],
+    city: 'New York',
+    address: '{{integer(100, 999)}} {{street()}}, {{integer(100, 10000)}}',
+    latitude: '{{floating(-90.000001, 90)}}',
+    longitude: '{{floating(-180.000001, 180)}}',
+    country: 'USA',
+    email: '{{email()}}',
+    phone: '+{{integer(1, 60)}} {{phone()}}',
+    descripcion: '{{lorem(1, "paragraphs")}}',
+    website: 'http://www.{{company().toLowerCase()}}.com',
+    amenities: {
+        wifi: '{{bool()}}',
+        pool: '{{bool()}}',
+        spa: '{{bool()}}',
+        parking: '{{bool()}}',
+        ac: '{{bool()}}',
+        restaturant:'{{bool()}}',
+        bar: '{{bool()}}',
+        gym: '{{bool()}}'
+    }    
+ 
+  }
+]
