@@ -7,7 +7,7 @@
     "start": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
     "build": "babel src -s -D -d dist --presets es2015,stage-0",
     "serve": "node dist",
-    "test": "eslint src && mocha --compilers js:babel-core/register ./src/test/*.test.js --exit"
+    "test": "eslint src && mocha --compilers js:babel-core/register ./src/test/*.test.js --timeout 150000 --exit"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",

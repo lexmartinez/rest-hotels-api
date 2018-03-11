@@ -7,9 +7,7 @@ const expect = require('chai').expect;
 chai.use(require('chai-http'));
 const app = require('../index.js');
 
-describe('Testing API - Invalid Path', function() {
-
-  this.timeout(20000);
+describe('Testing API - Invalid Path', () => {
 
   before(() => {});
 
