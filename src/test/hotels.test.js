@@ -7,7 +7,9 @@ const expect = require('chai').expect;
 chai.use(require('chai-http'));
 const app = require('../index.js');
 
-describe('Testing Hotels API - endpoint /v1/hotels', () => {
+describe('Testing Hotels API - endpoint /v1/hotels', function () {
+
+  this.timeout(5000);
 
   before(() => {});
 

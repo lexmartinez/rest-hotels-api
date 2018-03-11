@@ -63,6 +63,7 @@ In order to check the coding standard, this project has `eslint` integration to 
 
 * `npm run test`
 
+> This command also going to execute a `few unit-test` in order to validate the basic API operation
 ## Production
 
 To build your application, run:
