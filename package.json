@@ -7,7 +7,7 @@
     "start": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
     "build": "babel src -s -D -d dist --presets es2015,stage-0",
     "serve": "node dist",
-    "test": "eslint src"
+    "test": "eslint src && mocha --compilers js:babel-core/register ./src/test/*.test.js --exit"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -40,6 +40,7 @@
   "license": "MIT",
   "dependencies": {
     "apicache": "^1.2.0",
+    "babel-polyfill": "^6.26.0",
     "body-parser": "^1.13.3",
     "compression": "^1.7.2",
     "cors": "^2.7.1",
@@ -55,7 +56,10 @@
     "babel-core": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-stage-0": "^6.5.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
     "eslint": "^3.1.1",
+    "mocha": "^5.0.4",
     "nodemon": "^1.9.2"
   }
 }

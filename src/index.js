@@ -29,3 +29,5 @@ app.use(favicon('public/favicon.ico'));
 app.listen(port, () => {
   console.log(`REST Hotels API running on port: ${port}`);
 });
+
+module.exports = app;
