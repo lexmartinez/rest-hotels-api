@@ -9,7 +9,7 @@ const app = require('../index.js');
 
 describe('Testing API - Invalid Path', function() {
 
-  this.timeout(5000);
+  this.timeout(20000);
 
   before(() => {});
 

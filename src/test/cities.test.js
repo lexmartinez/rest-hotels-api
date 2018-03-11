@@ -9,7 +9,7 @@ const app = require('../index.js');
 
 describe('Testing Cities API - endpoint /v1/cities', function()  {
 
-  this.timeout(5000);
+  this.timeout(20000);
 
   before(() => {});
 
